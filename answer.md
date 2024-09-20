@@ -12,5 +12,6 @@ Babel is a JavaScript compiler that allows you to use the latest JavaScript feat
 ESLint is a static code analysis tool that helps you find and fix problems in your JavaScript code. It enforces a set of rules that help you write clean and consistent code. The rules that are currently applied can be found in the `.eslintrc.js` file in the root of the project.
 
 
-# Exercise 2:
+## what is the diffenrece between scoped style and non-scoped styles in Vue?
 
+Scoped styles are styles that are scoped to a specific component and do not affect other components. Non-scoped styles are global styles that affect all components in the application.
