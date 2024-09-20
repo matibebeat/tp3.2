@@ -1,16 +1,30 @@
 <script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import BaseButton from "@/components/BaseButton.vue";
 </script>
 
 <template>
   <header>
     <h1>TP 3.2</h1>
     <nav>
-      <a>Home</a>
-      <a>About</a>
+      <BaseButton
+        color="primary"
+        size="small"
+        type="enabled"
+      >Home</BaseButton>
+      <BaseButton
+          color="primary"
+        size="small"
+        type="enabled"
+
+      >About</BaseButton>
     </nav>
     <div>
-      <p>User</p>
+      <BaseButton
+        color="danger"
+        size="small"
+        type="enabled">Leave</BaseButton>
+
     </div>
 
 
