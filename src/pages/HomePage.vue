@@ -1,12 +1,10 @@
 <script setup>
-import HomePage from "@/pages/HomePage.vue";
+
 </script>
 
 <template>
-  <p>Empty project</p>
-
+  <h1>Home page</h1>
 </template>
 
 <style scoped>
-
 </style>
