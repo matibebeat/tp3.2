@@ -62,13 +62,11 @@ button {
 
 }
 
-.secondary:hover{
-  background-color: #d0d0d0;
+.secondary:hover, .secondary:focus{
+  background-color: #b3d7ff;
 }
 
-.secondary:focus{
-  border: 5px solid #007bff;
-}
+
 
 .small{
   font-size: 12px;
@@ -93,6 +91,7 @@ button {
 }
 
 .disabled{
+  z-index: 0;
   background-color: #d0d0d0;
   color: #6d6d6d;
   cursor: not-allowed;
@@ -103,25 +102,22 @@ button {
   color: white;
 }
 
-.warning:hover{
+.warning:hover, .warning:focus{
   background-color: #ffca2c;
 }
 
-.warning:focus{
-  border: 5px solid #ffc107;
-}
 
 .danger{
   background-color: #dc3545;
   color: white;
 }
 
-.danger:hover{
+.danger:hover, .danger:focus{
   background-color: #e4606d;
 }
 
-.danger:focus{
-  border: 5px solid #dc3545;
+.disabled{
+  opacity: 0.5;
 }
 
 </style>
